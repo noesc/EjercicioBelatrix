@@ -63,9 +63,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BelatrixRefactored\BelatrixRefactored.csproj">
+    <ProjectReference Include="..\BelatrixRefactored\JobLoggerRefactored.csproj">
       <Project>{9f5689f1-8186-4c43-8cf6-0df4503896fc}</Project>
-      <Name>BelatrixRefactored</Name>
+      <Name>JobLoggerRefactored</Name>
     </ProjectReference>
     <ProjectReference Include="..\Data\Data.csproj">
       <Project>{26c8fa99-4cb8-47e6-9b43-8aa853b66638}</Project>
