@@ -16,7 +16,7 @@ namespace JobLoggerTest
         {
             helper = new Mock<IHelper>();
             helper.Setup(x => x.GetConfigurationRestrictionTypeMessage()).Returns(1);
-            helper.Setup(x => x.GetPathFile()).Returns(@"C:\EjercicioBelatrix\Belatrix\");
+            helper.Setup(x => x.GetPathFile()).Returns(@"C:\EjercicioBelatrix\JobLogger\");
             helper.Setup(x => x.GetConnectionString()).Returns(@"");
         }
 
